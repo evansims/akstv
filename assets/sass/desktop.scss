@@ -61,7 +61,7 @@ header#site {
     width: 100px; height: 100px;
     margin: 0;
 
-    background: url('../images/h1.png') no-repeat center;
+    background: url('/images/h1.png') no-repeat center;
     background-size: cover;
     box-shadow: 0 0 5px rgba(0,0,0,0.75);
 
@@ -159,7 +159,7 @@ article {
   #live-channel {
     width: 860px; height: 507px;
     margin: 0 0 50px 0;
-    background: #333 url('../images/transparent.gif') no-repeat center;
+    background: #333 url('/images/transparent.gif') no-repeat center;
     background-size: cover;
     border-radius: 4px;
 
@@ -186,7 +186,7 @@ article {
           margin: 0 5px 5px 0;
           padding: 102px 10px 10px 10px;
 
-          background: #000 url('../images/placeholder.jpg') center no-repeat;
+          background: #000 url('/images/placeholder.jpg') center no-repeat;
           background-size: cover;
           color: #fff;
 

@@ -11,9 +11,9 @@
 		<meta name='description' content='Streaming network for the Aureus Knights Community. Online gaming streamed throughout the day.'/>
 		<meta name='keywords' content='MMORPG, Streaming, Twitch.TV, Guild Wars 2, Planetside 2, World of Warcraft'/>
 
-		<link rel="stylesheet" type="text/css" href="styles/desktop.css" />
-		<link rel="stylesheet" type="text/css" href="styles/mobile.css" />
-		<script data-main="scripts/main.js" src="scripts/require.js"></script>
+		<link rel="stylesheet" type="text/css" href="/styles/desktop.css" />
+		<link rel="stylesheet" type="text/css" href="/styles/mobile.css" />
+		<script data-main="scripts/main.js" src="/scripts/require.js"></script>
 
 		<script type="text/javascript" src="http://use.typekit.net/idc1fhm.js"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -55,17 +55,17 @@
 						<div class="fb-like" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false" data-colorscheme="dark" data-font="arial"></div>
 					</div>
 					<div class="googleplus button">
-<!-- Place this tag where you want the +1 button to render. -->
-<div class="g-plusone" data-size="tall" data-annotation="none" data-href="http://www.aureusknights.tv/"></div>
+						<!-- Place this tag where you want the +1 button to render. -->
+						<div class="g-plusone" data-size="tall" data-annotation="none" data-href="http://www.aureusknights.tv/"></div>
 
-<!-- Place this tag after the last +1 button tag. -->
-<script type="text/javascript">
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/plusone.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script>
+						<!-- Place this tag after the last +1 button tag. -->
+						<script type="text/javascript">
+						  (function() {
+						    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+						    po.src = 'https://apis.google.com/js/plusone.js';
+						    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+						  })();
+						</script>
 					</div>
 				</div>
 
@@ -123,9 +123,9 @@
 
 		</div>
 
-		<audio id="static" src="audio/static.ogg" preload="auto" autobuffer></audio>
+		<audio id="static" src="/audio/static.ogg" preload="auto" autobuffer></audio>
 
-		<img src="images/static.gif" style="position: absolute; top: 0; left: 0; width: 2px; height: 2px;" />
+		<img src="/images/static.gif" style="position: absolute; top: 0; left: 0; width: 2px; height: 2px;" />
 
 		<script>
 			require(['jquery', 'main'], function() {

@@ -20,7 +20,7 @@ $(function() {
 				window.history.replaceState(null, $("body").attr('data-title-template').replace("%s", name), '/' + channel);
 			}
 
-			loadStream(200, channel, twitter, name, topic, game);
+			loadStream(500, channel, twitter, name, topic, game);
 		} else {
 			lockChannelSwitching = false;
 		}
@@ -30,7 +30,7 @@ $(function() {
 });
 
 function loadStream(wait, twitch, twitter, displayName, description, game) {
-	if(!wait) wait = 200;
+	if(!wait) wait = 500;
 	if(!displayName) displayName = twitch;
 	if(!description) description = 'Streaming from their twitch.tv account.';
 
