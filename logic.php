@@ -157,9 +157,16 @@
         }
     }
 
-    $broadcasters = array_merge($broadcastersOnline, $broadcastersOffline);
-    foreach($broadcasters as &$broadcaster) {
-        $broadcaster = (object)$broadcaster;
+    $broadcasters = array();
+    if(count($broadcastersOffline)) {
+      foreach($broadcastersOnline as $broadcaster) {
+          $broadcasters[] = (object)$broadcaster;
+      }
+    }
+    if(count($broadcastersOffline)) {
+      foreach($broadcastersOffline as $broadcaster) {
+          $broadcasters[] = (object)$broadcaster;
+      }
     }
 
     unset($broadcastersOnline);
