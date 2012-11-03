@@ -130,7 +130,7 @@
 		<script>
 			require(['jquery', 'main'], function() {
 				// Load default or requested channel.
-				loadStream(50, '<?php echo($startupChannel->twitch); ?>', '<?php echo($startupChannel->twitter); ?>', '<?php echo($startupChannel->name); ?>', '<?php echo(htmlentities($startupChannel->topic, ENT_QUOTES | ENT_IGNORE, "UTF-8")); ?>', '<?php echo(htmlentities($startupChannel->game, ENT_QUOTES | ENT_IGNORE, "UTF-8")); ?>');
+				loadStream(0, '<?php echo($startupChannel->twitch); ?>', '<?php echo($startupChannel->twitter); ?>', '<?php echo($startupChannel->name); ?>', '<?php echo(htmlentities($startupChannel->topic, ENT_QUOTES | ENT_IGNORE, "UTF-8")); ?>', '<?php echo(htmlentities($startupChannel->game, ENT_QUOTES | ENT_IGNORE, "UTF-8")); ?>');
 			});
 		</script>
 

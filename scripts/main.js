@@ -30,11 +30,10 @@ $(function() {
 });
 
 function loadStream(wait, twitch, twitter, displayName, description, game) {
-	if(!wait) wait = 500;
 	if(!displayName) displayName = twitch;
 	if(!description) description = 'Streaming from their twitch.tv account.';
 
-	if(wait > 0) {
+	if(wait != 0) {
 		if(supportsHTML5Audio) {
 			staticAudio.volume = 0.1;
 			staticAudio.play();
