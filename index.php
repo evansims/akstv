@@ -127,8 +127,6 @@
 
 		<img src="images/static.gif" style="visibility: hidden" />
 
-		<canvas id="backdrop" src="images/backdrop2.jpg"></canvas>
-
 		<script>
 			$(function() {
 				// Load default or requested channel.
