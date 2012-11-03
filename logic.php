@@ -149,6 +149,14 @@
         }
     }
 
+    if(!is_object($startupChannel)) {
+        if(isset($broadcastersOnline[0])) {
+            $startupChannel = $broadcastersOnline[0];
+        } else {
+            $startupChannel = $broadcastersOffline[0];
+        }
+    }
+
     $broadcasters = array_merge($broadcastersOnline, $broadcastersOffline);
     foreach($broadcasters as &$broadcaster) {
         $broadcaster = (object)$broadcaster;
