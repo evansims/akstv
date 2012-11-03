@@ -125,7 +125,7 @@
 
 		<audio id="static" src="audio/static.ogg" preload="auto" autobuffer></audio>
 
-		<img src="images/static.gif" style="visibility: hidden" />
+		<img src="images/static.gif" style="position: absolute; top: 0; left: 0; width: 2px; height: 2px;" />
 
 		<script>
 			require(['jquery', 'main'], function() {
