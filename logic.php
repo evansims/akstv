@@ -151,9 +151,9 @@
 
     if(!is_object($startupChannel)) {
         if(isset($broadcastersOnline[0])) {
-            $startupChannel = $broadcastersOnline[0];
+            $startupChannel = (object)$broadcastersOnline[0];
         } else {
-            $startupChannel = $broadcastersOffline[0];
+            $startupChannel = (object)$broadcastersOffline[0];
         }
     }
 
