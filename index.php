@@ -97,8 +97,7 @@
 
 				<div id="irc-chat">
 					<h2>Guild Chat</h2>
-
-					<iframe width="620" height="350" scrolling="no" src="http://widget.mibbit.com/?settings=c42689e88dfd82eb23d8ecd568fcd485&server=irc.aureusknights.com&channel=%23knights"></iframe>
+					<iframe src="http://irc.aureusknights.com:9090/?channels=knights&uio=d4" width="620" height="450" style="border: none"></iframe>
 				</div>
 
 				<nav id="channel-selection">
